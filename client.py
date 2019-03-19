@@ -28,7 +28,7 @@ def receving (name, sock):
 				time.sleep(0.2)
 		except:
 			pass
-host = socket.gethostbyname(socket.gethostname())
+host = "192.168.0.101"
 port = 0
 
 server = ("192.168.0.100",9090)
